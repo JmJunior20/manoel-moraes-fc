@@ -100,7 +100,7 @@ a {
 /*=====Dark mode ======*/
 #mode_icon {
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .dark {
@@ -118,6 +118,6 @@ a {
 
 #mode_icon {
     position: fixed;
-    top: 1.2rem;
-    right: 1.5rem;
+    top: 1.6rem;
+    right: 2rem;
 }
