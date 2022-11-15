@@ -7,12 +7,29 @@
     <title>Manoel de Moraes FC</title>
 
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body id="corpo">
     <header>
       <nav class="navbar">
-        <a href="#" class="logo"><img src="./assets/images/logo.png" alt="Logo do Manoel de Moraes FC"></a>
+        <a href="#" class="logo"
+          ><img
+            src="./assets/images/logo.png"
+            alt="Logo do Manoel de Moraes FC"
+        /></a>
         <ul class="nav-menu">
           <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Galeria</a></li>
@@ -25,30 +42,101 @@
         </div>
       </nav>
     </header>
+    
     <main>
-        <i id="mode_icon" class="fa-solid fa-moon"></i>
+      <i id="mode_icon" class="fa-solid fa-moon"></i>
 
-        <section id="home">
-          <div class="content">
-            <div class="bg-home">
-              
-            </div>
-            <div class="text-home">
-              <h1>Manoel de Moraes FC</h1>
-              <p>Time de Futebol Amador</p>
-              <p>Santa Maria Madalena/RJ</p>
-            </div>
+      <section id="home">
+        <div class="content">
+          <div class="bg-home">
+            <img
+              src="./assets/images/logo.png"
+              alt="Escudo do Manoel de Moraes FC"
+            />
           </div>
-        </section>
-        <section id="galeria">
-          <div class="content">
+          <div class="text-home">
+            <h1>Manoel de Moraes FC</h1>
+            <p>Time de Futebol Amador</p>
+            <p>Santa Maria Madalena/RJ</p>
+            <img
+              src="./assets/images/playsoccer.png"
+              alt="Jogador de futebol"
+            />
+          </div>
+        </div>
+
+      </section>
+
+      <section id="galeria">
+        <div class="content">
+          <div class="tituto">
             <h2>GALERIA DE FOTOS</h2>
           </div>
-        </section>
-        <section id="contato"></section>
+          <div class="fotos">
+            <img
+              src="./assets/images/time1.png"
+              alt="Foto do elenco do MDM FC"
+            />
+            <img
+              src="./assets/images/time2.png"
+              alt="Foto do elenco do MDM FC"
+            />
+            <img
+              src="./assets/images/time3.png"
+              alt="Foto do elenco do MDM FC"
+            />
+            <img
+              src="./assets/images/tine4.png"
+              alt="Foto do elenco do MDM FC"
+            />
+          </div>
+        </div>
+      </section>
 
+      <section id="contato">
+        <div class="content">
+          <div class="tituto">
+            <h2>CONTATO</h2>
+          </div>
+          <div class="corpo-contato">
+            <div class="text-contato">
+              <div class="endereco">
+                <h3>Manoel de Moraes FC</h3>
+                <p>Santa Maria Madalena</p>
+                <p>Rio de Janeiro/RJ</p>
+              </div>
+              <div class="social-media">
+                <div class="banner-line"></div>
+                <a href="https://www.instagram.com/manoeldemoraesfc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/manoel.demoraes.37" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <div class="banner-line"></div>
+              </div>
+            </div>
+            <div class="img-contato">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3533.6658185626734!2d-42.13877511051697!3d-22.024458063831798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1668548867289!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </section>
     </main>
-    <footer></footer>
+
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+          <p>
+            Produzido por
+            <a href="https://jmjuniordeveloper.netlify.app/" target="_blank"
+              >JMJunior</a
+            >
+          </p>
+        </div>
+
+        <div class="col-b">
+          <p>©2022 MDM FC - Todos os direitos reservados</p>
+        </div>
+      </div>
+    </footer>
     <script src="./main.js"></script>
   </body>
 </html>
